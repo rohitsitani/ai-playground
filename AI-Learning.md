@@ -1,7 +1,7 @@
 Tansformer architecture
 
 https://www.youtube.com/watch?v=RDvQmE9eNRw&list=PLTB9HGiKZPe8VONYxDxvoID910Dd307UV
-1. install docker
+1. install docker (brew install docker, new install --cask docker)
 2. install ollama
 3. setup open webUI - https://github.com/open-webui/open-webui?tab=readme-ov-file#installation-with-default-configuration
 4. install deepseek
