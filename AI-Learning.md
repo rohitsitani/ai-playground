@@ -1,11 +1,13 @@
 Tansformer architecture
 
 https://www.youtube.com/watch?v=RDvQmE9eNRw&list=PLTB9HGiKZPe8VONYxDxvoID910Dd307UV
-1. install docker (brew install docker, new install --cask docker)
+1. install docker 
+1.1 brew install --cask docker
+1.2 brew install docker
 2. install ollama
-3. setup open webUI - https://github.com/open-webui/open-webui?tab=readme-ov-file#installation-with-default-configuration
-docker pull ghcr.io/open-webui/open-webui:main
-then follow instructions above
+3. setup open webUI - 
+3.1 docker pull ghcr.io/open-webui/open-webui:main
+3.2 https://github.com/open-webui/open-webui?tab=readme-ov-file#installation-with-default-configuration
 4. install deepseek
 
 A. Model size / Model Parameters - more parameters, more complex to train and deploy. Parameters are values learned by the model during training. They are often part of the model’s architecture and help make predictions based on the input data
