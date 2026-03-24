@@ -5,6 +5,8 @@ https://www.youtube.com/watch?v=RDvQmE9eNRw&list=PLTB9HGiKZPe8VONYxDxvoID910Dd30
 1.1 brew install --cask docker
 1.2 brew install docker
 2. install ollama
+2.1 brew install ollama
+2.2 http://localhost:11434
 3. setup open webUI - 
 3.1 docker pull ghcr.io/open-webui/open-webui:main
 3.2 https://github.com/open-webui/open-webui?tab=readme-ov-file#installation-with-default-configuration
