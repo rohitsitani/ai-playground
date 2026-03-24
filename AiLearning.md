@@ -1,4 +1,17 @@
-ext to check the accuracy of its prediction. The model iteratively learns from its mistakes and adjusts its parameters accordingly. With each adjustment, the model increases its prediction accuracy.  
+Tansformer architecture
+
+https://www.youtube.com/watch?v=RDvQmE9eNRw&list=PLTB9HGiKZPe8VONYxDxvoID910Dd307UV
+1. install docker
+2. install ollama
+3. setup open webUI - https://github.com/open-webui/open-webui?tab=readme-ov-file#installation-with-default-configuration
+4. install deepseek
+
+A. Model size / Model Parameters - more parameters, more complex to train and deploy. Parameters are values learned by the model during training. They are often part of the model’s architecture and help make predictions based on the input data
+A.1. Weights and Biases: These are adjusted during training to minimize the error between the predicted output and the actual label.
+A.2. Number of Layers: Determines the depth of the model (e.g., how many stacked layers of neural networks).
+Example: GPT-3 has 96 layers.
+
+B. Training data - quality and quantity impacts performance. LLM parameters are set to an initial value based on previous training or by randomness. The model is fed with large amounts of textual data. During training, the model takes the input and predicts the correct output. Then, it compares the predicted output to the actual text to check the accuracy of its prediction. The model iteratively learns from its mistakes and adjusts its parameters accordingly. With each adjustment, the model increases its prediction accuracy.  
 https://www.alexanderthamm.com/en/blog/the-role-of-parameters-in-llms/
 
 C. Decoding Hyperparameters
@@ -35,3 +48,12 @@ Validation and Evaluation: After training, evaluating the model with a holdout d
 new models does not just rely on parameters but has better algorithms to improve/learn abilities at lower parameter value.
 
 The data quality, computational resources, and the application's specific requirements define the model's success
+
+Companies are demanding their teams to train efficient models that solve customer's needs and create models trained for specific applications
+
+https://www.thecloudgirl.dev/blog/llm-parameters-explained
+Gemini Nano has 1.8 billion parameters. What does it mean? Compared to larger AI models, 1.8 billion is a relatively small number of parameters.
+
+This indicates that Gemini Nano is designed for efficiency and running on devices with limited resources, like smartphones.
+
+Despite its smaller size, it still shows good performance in tasks like summarizing text and suggesting replies in chat applications, thanks to its efficient architecture and training.
